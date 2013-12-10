@@ -1,0 +1,23 @@
+{
+  "name": "Coffee-Physics",
+  "version": "0.0.1",
+  "homepage": "https://github.com/Jeremial/Coffee-Physics",
+  "authors": [
+    "Jeremial <jeremial90@gmail.com>"
+  ],
+  "description": "a fork and improved version of coffee-physics",
+  "main": "index.js",
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "devDependencies": {
+    "jquery": "~2.0.3",
+    "stats.js": "*"
+  }
+}

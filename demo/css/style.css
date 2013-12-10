@@ -1,0 +1,92 @@
+@font-face {
+    font-weight: 400;
+    font-style: normal;
+    font-family:'Play';
+    src: local('Play'), url(normal.woff) format('woff');
+}
+@font-face {
+    font-weight: 700;
+    font-style: normal;
+    font-family:'Play';
+    src: local('Play-Bold'), url(bold.woff) format('woff');
+}
+html, body {
+    margin: 0;
+    background: #1a1a1a;
+    font-family:'Play', sans-serif;
+}
+.stats {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+#content {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    width: 260px;
+}
+#info {
+    margin-bottom: 1px;
+    padding: 12px 10px;
+    background: rgba(0, 0, 0, 0.8);
+    color: #fff;
+}
+#info h1 {
+    margin: 0;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 22px;
+}
+#info h2 {
+    margin: 0 0 6px 0;
+    color: rgba(255, 255, 255, 0.8);
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 14px;
+}
+#info a {
+    margin-right: 4px;
+    border-bottom: 1px dotted rgba(255, 255, 255, 0.2);
+    color: rgba(255, 255, 255, 0.5);
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 10px;
+    line-height: 20px;
+}
+#info a:hover {
+    border-bottom: 1px dotted rgba(255, 255, 255, 0.6);
+    color: rgba(255, 255, 255, 1.0);
+}
+.select {
+    margin-bottom: 10px;
+}
+.select ul {
+    margin: 0;
+    padding: 0;
+}
+.select li {
+    margin: 1px 0;
+    list-style: none;
+}
+.select a {
+    display: block;
+    padding-left: 10px;
+    background: rgba(0, 0, 0, 0.8);
+    color: rgba(255, 255, 255, 0.5);
+    text-decoration: none;
+    font-size: 12px;
+    line-height: 32px;
+    opacity: 0.2;
+    -webkit-transition: all 300ms ease-out;
+}
+.select a:hover, .select a.active {
+    color: rgba(255, 255, 255, 1.0);
+}
+.select a.active {
+    border-left: 4px solid #fff;
+    opacity: 0.5;
+}
+#content:hover .select a {
+    opacity: 1.0;
+}

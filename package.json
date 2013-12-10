@@ -1,0 +1,25 @@
+{
+  "name": "Coffee-Physics",
+  "version": "0.0.1",
+  "description": "a fork and improved version of coffee-physics",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Jeremial/Coffee-Physics.git"
+  },
+  "author": "Jeremial",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Jeremial/Coffee-Physics/issues"
+  },
+  "homepage": "https://github.com/Jeremial/Coffee-Physics",
+  "devDependencies": {
+    "grunt-contrib-coffee": "~0.7.0",
+    "grunt-contrib-uglify": "~0.2.4",
+    "grunt": "~0.4.1",
+    "grunt-contrib-watch": "~0.5.3"
+  }
+}
