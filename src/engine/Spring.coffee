@@ -1,5 +1,5 @@
 ### Spring ###
-
+# 弹簧
 class Spring
 
     constructor: (@p1, @p2, @restLength = 100, @stiffness = 1.0) ->

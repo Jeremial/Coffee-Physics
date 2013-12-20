@@ -1,4 +1,5 @@
 ### Particle ###
+# 粒子
 class Particle
 
     @GUID = 0
