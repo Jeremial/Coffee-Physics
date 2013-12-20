@@ -9,6 +9,7 @@ class Particle
         @id = 'p' + Particle.GUID++
 
         # Set initial mass.
+        # 设置初始质量
         @setMass @mass
 
         # Set initial radius.
@@ -21,12 +22,15 @@ class Particle
         @behaviours = []
 
         # Current position.
+        # 当前位置
         @pos = new Vector()
 
         # Current velocity.
+        # 当前速度
         @vel = new Vector()
 
         # Current force.
+        # 当前力
         @acc = new Vector()
 
         # Previous state.

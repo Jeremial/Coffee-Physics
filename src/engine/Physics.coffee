@@ -8,6 +8,8 @@ class Physics
         @timestep = 1.0 / 60
 
         # Friction within the system.
+        # Friction: 摩擦力
+        # viscosity 摩擦系数
         @viscosity = 0.005
 
         # Global behaviours.
